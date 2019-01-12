@@ -1,0 +1,39 @@
+{
+    "name": "open-engine/http",
+    "description": "Http",
+    "license": "GPL-3.0-or-later",
+    "type": "library",
+    "keywords": [
+        "php",
+        "http",
+        "request",
+        "server-request",
+        "response",
+        "stream",
+        "uri"
+    ],
+    "authors": [
+        {
+            "name": "Akmal Kadirov",
+            "email": "akmal@kadirov.org",
+            "homepage": "http://kadirov.org/",
+            "role": "Founder and project lead"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "php": "~7.2",
+        "psr/http-message": "^1.0",
+        "psr/http-factory": "^1.0"
+    },
+    "require-dev": {
+        "open-engine/run-tests": "~0.1.1"
+    }
+}
